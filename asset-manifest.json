@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/brick-breaker/static/css/main.88ec322a.chunk.css",
-    "main.js": "/brick-breaker/static/js/main.17b97ea0.chunk.js",
-    "main.js.map": "/brick-breaker/static/js/main.17b97ea0.chunk.js.map",
+    "main.js": "/brick-breaker/static/js/main.5e657f8c.chunk.js",
+    "main.js.map": "/brick-breaker/static/js/main.5e657f8c.chunk.js.map",
     "runtime-main.js": "/brick-breaker/static/js/runtime-main.8e01290c.js",
     "runtime-main.js.map": "/brick-breaker/static/js/runtime-main.8e01290c.js.map",
     "static/js/2.6ecfc245.chunk.js": "/brick-breaker/static/js/2.6ecfc245.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.8e01290c.js",
     "static/js/2.6ecfc245.chunk.js",
     "static/css/main.88ec322a.chunk.css",
-    "static/js/main.17b97ea0.chunk.js"
+    "static/js/main.5e657f8c.chunk.js"
   ]
 }
