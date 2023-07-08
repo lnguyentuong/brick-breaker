@@ -1,5 +1,6 @@
 {
   "name": "canvas",
+  "homepage":"http://lnguyentuong.github.io/brick-breaker",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -7,17 +8,19 @@
     "@types/node": "^16.7.13",
     "@types/react": "^17.0.20",
     "@types/react-dom": "^17.0.9",
-    "react-dom": "^17.0.2",
-    "web-vitals": "^2.1.0",
-    "yarn": "^1.22.18",
+    "gh-pages": "^5.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
-    "typescript": "^4.1.2"
+    "typescript": "^4.1.2",
+    "web-vitals": "^2.1.0",
+    "yarn": "^1.22.18"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "CI=;react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
