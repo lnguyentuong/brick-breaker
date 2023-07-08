@@ -14,6 +14,7 @@ export type State = {
 
 var kick = new Audio(process.env.PUBLIC_URL + "/Thwomp.wav");
 var breaking = new Audio(process.env.PUBLIC_URL + "/Break.wav");
+var bump = new Audio(process.env.PUBLIC_URL+"/Bump.wav")
 
 const dist2 = (o1: Point, o2: Coord) =>
   Math.pow(o1.x - o2.x, 2) + Math.pow(o1.y - o2.y, 2)
@@ -128,7 +129,8 @@ export const step = (state: State) => {
     arr.slice(i + 1).map((p2) => {
       if (collideCircleBrick(state.ball.coord, p1)) {
         p1.life--
-        breaking.play();
+        if(p1.life==0) breaking.play();
+        else bump.play()
         collideBoing(state.ball.coord, p1)
       }
     })
