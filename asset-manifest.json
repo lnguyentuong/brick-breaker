@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/brick-breaker/static/css/main.88ec322a.chunk.css",
+    "main.js": "/brick-breaker/static/js/main.17b97ea0.chunk.js",
+    "main.js.map": "/brick-breaker/static/js/main.17b97ea0.chunk.js.map",
+    "runtime-main.js": "/brick-breaker/static/js/runtime-main.8e01290c.js",
+    "runtime-main.js.map": "/brick-breaker/static/js/runtime-main.8e01290c.js.map",
+    "static/js/2.6ecfc245.chunk.js": "/brick-breaker/static/js/2.6ecfc245.chunk.js",
+    "static/js/2.6ecfc245.chunk.js.map": "/brick-breaker/static/js/2.6ecfc245.chunk.js.map",
+    "static/js/3.99f060f5.chunk.js": "/brick-breaker/static/js/3.99f060f5.chunk.js",
+    "static/js/3.99f060f5.chunk.js.map": "/brick-breaker/static/js/3.99f060f5.chunk.js.map",
+    "index.html": "/brick-breaker/index.html",
+    "static/css/main.88ec322a.chunk.css.map": "/brick-breaker/static/css/main.88ec322a.chunk.css.map",
+    "static/js/2.6ecfc245.chunk.js.LICENSE.txt": "/brick-breaker/static/js/2.6ecfc245.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8e01290c.js",
+    "static/js/2.6ecfc245.chunk.js",
+    "static/css/main.88ec322a.chunk.css",
+    "static/js/main.17b97ea0.chunk.js"
+  ]
+}
